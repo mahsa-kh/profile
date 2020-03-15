@@ -1,0 +1,99 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,500,700|Noto+Sans+TC:500&display=swap');
+</style>
+
+body {
+  background-color: rgb(200, 200, 200);
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #000000;
+  font-size: 13px;
+}
+
+h1 {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #323232;
+}
+
+h2 {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 300;
+  color: #ed6663;
+}
+
+
+a {
+  text-decoration: none;
+  color: #f1f3f4;
+}
+
+fab:hover, a:hover{
+  color: rgb(209,209,209);
+}
+ .img-circle{
+  border-radius: 50%;
+  box-shadow: 5px 5px 3px rgba(0,0,0,.1);
+ }
+
+ .container{
+    width: 600px;
+    margin: 32px  auto;
+ }
+
+  .btn-blue{
+    background-color: #0f4c81;
+    padding: 8px;
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+    border-radius: 4px;
+  }
+
+  .card-white{
+    text-align: center;
+    background: #f1f3f4;                         /* White background */
+    padding: 30px;                             /* Internal space */
+    border-radius: 4px;                        /* Small radius */
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    width: 600px;
+    margin: 32px  auto;
+ }
+
+ .list-inline{
+    list-style: none;
+    padding: 0;
+ }
+
+.list-inline li {
+  display: inline-block;
+}
+
+ .text-justify {
+  text-align: justify;
+}
+
+.fab {
+  color: #0f4c81;
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
