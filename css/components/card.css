@@ -1,0 +1,45 @@
+.card {
+  height: 250px;
+  color: white;
+  background-image: linear-gradient(135deg,
+                          rgba(0, 0, 0, 0.8) 0%,
+                          rgba(0, 0, 0, 0.3) 50%),
+      url('https://source.unsplash.com/random/800x600');
+      background-size: cover;
+    text-align: center;                       /* White background */
+    padding: 30px;                             /* Internal space */
+    border-radius: 4px;                        /* Small radius */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    width: 600px;
+    margin: 32px  auto;
+}
+
+
+.card-category {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.card-image {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+
+  .card-white{
+    text-align: center;
+    background: rgba(200,200,200, 0.3);                         /* White background */
+    padding: 30px;                             /* Internal space */
+    border-radius: 4px;                        /* Small radius */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    width: 600px;
+    margin: 32px  auto;
+ }
